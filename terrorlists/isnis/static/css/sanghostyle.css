@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Caesar+Dressing);
+
+.background-dark {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative; height: 100%;
+}
+
+.title { font-family: 'Caesar Dressing', cursive; }
+
+
+div.scroll {
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+
+div.hidden {
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}

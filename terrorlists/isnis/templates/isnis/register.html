@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Title</title>
+     <!--Import Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+     <!--Import materialize.css-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href="{% static 'css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+     <link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+     <link href="{% static 'css/sanghostyle.css' %}" rel="stylesheet"/>
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+
+   <body>
+    <div class="parallax"><img src="{% static 'register.jpg' %}" alt="Unsplashed background img 2">
+      <div class = "background-dark">
+        <div class="section">
+        <div class="container">
+
+          <div class="row">
+            <h1 class="white-text text-darken-2 title">TERRORLISTS</h1>
+            <h4 class="white-text text-darken-2">간단한 정보만으로 회원가입 할 수 있습니다.</h4>
+
+            <div class="row valign-wrapper">
+              <div class="input-field col s6">
+                <input id="name" placeholder="윤상호" type="text" class="validate white-text">
+                <label class="active" for="name">이름</label>
+              </div>
+            </div>
+
+            <div class="row valign-wrapper">
+              <div class="input-field col s6">
+                <input id="icon_telephone" placeholder="010-4422-1124" type="tel" class="validate white-text">
+                <label for="icon_telephone">핸드폰 번호</label>
+              </div>
+            </div>
+
+            <div class="row valign-wrapper">
+              <div class="input-field col s6">
+                <input id="email" placeholder="gaonmail@naver.com" type="email" class="validate white-text">
+                <label for="email" data-error="wrong" data-success="right">이메일</label>
+              </div>
+            </div>
+
+            <div class="row valign-wrapper">
+              <div class="input-field col s6">
+                <input id="password" type="password" class="validate white-text">
+                <label for="password">비밀번호</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <a class="waves-effect waves-light btn">회원가입</a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+   </body>
+ </html>
